@@ -1,0 +1,9 @@
+version: '3'
+services:
+  rhapi-api:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    image: fase08-item12
+    ports:
+      - "8080:8080"
